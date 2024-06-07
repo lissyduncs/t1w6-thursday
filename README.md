@@ -50,3 +50,22 @@ if tomorrow is Friday,
  AND, OR NOT. Operands need to be Boolean as well
  or= if either is true=true
 
+# terminory operator
+condenses series of code to one line
+ message = "its hot outside" id temperature > 30 else "its not hot outside"
+ print(message)
+
+# match case
+day_number= 3
+
+match day_number: 
+    case 1:
+        day_name = "Monday"
+    case 2:
+        day_name = "Tuesday"
+    case 3:
+        day_name = "Wednesday"
+    case 4:
+        day_name = "Thursday"
+    
+print(day_name)
